@@ -20,7 +20,7 @@ public class MainActivityTest {
     public void initialDisplay() {
         // get rid of soft keyboard
         closeSoftKeyboard();
-        onView(withText("Hello world!")).check(matches(isDisplayed()));
+        onView(withText("Hello world?")).check(matches(isDisplayed()));
     }
 
 
