@@ -19,7 +19,7 @@ android:
     #- extra-android-m2repository
 addons:
   apt:
-    sources:
+    packages:
       - libstdc++6:i386 lib32z1 expect
 
 before_script:
